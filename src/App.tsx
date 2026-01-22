@@ -14,9 +14,12 @@ function App() {
     <div className="min-h-screen bg-background p-4 sm:p-8">
       <div className="mx-auto max-w-4xl space-y-8">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tight">Custom Calendar</h1>
+          <h1 className="text-3xl font-bold tracking-tight">
+            react-daypicker-calendar
+          </h1>
           <p className="text-muted-foreground">
-            A custom calendar component with month and year picker views.
+            A flexible React calendar with advanced selection modes and seamless
+            month/year navigation.
           </p>
         </div>
 
