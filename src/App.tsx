@@ -1,5 +1,4 @@
 import { format } from 'date-fns'
-import { Github } from 'lucide-react'
 import React from 'react'
 import type { DateRange } from 'react-day-picker'
 import { Calendar } from './components/calendar'
@@ -24,10 +23,9 @@ function App() {
                 href="https://github.com/bradmwangangi/react-daypicker-calendar"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+                className="inline-flex items-center gap-2"
               >
-                <Github className="h-4 w-4" />
-                GitHub
+                <img src="/github-logo.svg" alt="GitHub" className="h-6 w-6" />
               </a>
             </div>
             <p className="text-muted-foreground">
