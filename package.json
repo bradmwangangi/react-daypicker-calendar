@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A React calendar component with advanced selection modes and month/year picker navigation.",
-  "homepage": "https://github.com/bradmwangangi/react-daypicker-calendar",
+  "homepage": "https://react-daypicker-calendar.vercel.app/",
   "author": "Bradley Mwangangi <bradmwangangi@gmail.com>",
   "license": "MIT",
   "type": "module",
