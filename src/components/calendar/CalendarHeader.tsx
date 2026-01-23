@@ -59,8 +59,7 @@ export function CalendarHeader({
           size="sm"
           className={cn(
             'h-8 px-2 text-sm font-medium',
-            'hover:bg-primary/30 hover:text-foreground',
-            currentView === 'month' && 'bg-primary/70 text-primary-foreground'
+            'hover:bg-primary/30 hover:text-foreground'
           )}
           onClick={onMonthClick}
           aria-label="Select month"
@@ -80,8 +79,7 @@ export function CalendarHeader({
           size="sm"
           className={cn(
             'h-8 px-2 text-sm font-medium',
-            'hover:bg-primary/30 hover:text-foreground',
-            currentView === 'year' && 'bg-primary/70 text-primary-foreground'
+            'hover:bg-primary/30 hover:text-foreground'
           )}
           onClick={onYearClick}
           aria-label="Select year"

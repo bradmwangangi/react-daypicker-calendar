@@ -136,7 +136,6 @@ export function Calendar(props: CalendarProps) {
           {currentView === 'month' && (
             <MonthPicker
               selectedMonth={displayMonth.getMonth()}
-              year={displayMonth.getFullYear()}
               onMonthSelect={handleMonthSelect}
             />
           )}

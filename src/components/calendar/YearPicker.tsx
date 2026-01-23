@@ -32,7 +32,6 @@ export function YearPicker({
     () => generateYearRange(fromYear, toYear),
     [fromYear, toYear]
   )
-  const thisYear = new Date().getFullYear()
 
   React.useEffect(() => {
     requestAnimationFrame(() => {
@@ -59,7 +58,6 @@ export function YearPicker({
       <div className="grid grid-cols-3 gap-2 w-full">
         {years.map((year) => {
           const isSelectedYear = year === selectedYear
-          const isThisYear = year === thisYear
 
           return (
             <button
@@ -72,9 +70,8 @@ export function YearPicker({
                 'h-10 px-2 text-sm font-normal rounded-md transition-colors',
                 'hover:bg-primary/30 hover:text-foreground',
                 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
-                !isSelectedYear && !isThisYear && 'text-foreground',
-                isThisYear && '!bg-primary text-primary-foreground',
-                isSelectedYear && 'bg-primary/70 text-primary-foreground'
+                'text-foreground',
+                isSelectedYear && 'bg-primary text-primary-foreground'
               )}
               onClick={() => onYearSelect(year)}
             >

@@ -69,10 +69,8 @@ const baseClassNames = {
   range_start: 'day-range-start rounded-r-none',
   range_middle:
     'aria-selected:bg-primary/30 aria-selected:text-foreground rounded-none',
-  selected:
-    'bg-primary/70 text-primary-foreground rounded-md hover:bg-primary/30',
-  today:
-    '!bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/30',
+  selected: 'bg-primary text-primary-foreground rounded-md hover:bg-primary/30',
+  today: 'border-b-2 border-primary hover:bg-primary/30',
   outside:
     'day-outside text-muted-foreground opacity-50 aria-selected:bg-primary/20 aria-selected:text-muted-foreground aria-selected:opacity-50',
   disabled: 'text-muted-foreground opacity-50 cursor-not-allowed',
